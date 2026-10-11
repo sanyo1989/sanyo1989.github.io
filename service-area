@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LatencyLab is based in Merrimack, NH and serves southern New Hampshire with on-site and remote IT help for homes and businesses.">
+    <title>Service Area | LatencyLab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="wrap">
+        <a class="brand" href="index.html"><span class="brand-dot"></span>LatencyLab</a>
+        <nav class="site-nav" aria-label="Main">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-title">
+        <div class="wrap">
+            <h1>Service area</h1>
+            <p>Local IT help for homes and businesses, based in Merrimack, New Hampshire.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="wrap split">
+            <div class="place">
+                <span class="label"><span class="brand-dot"></span>Based in</span>
+                <strong>Merrimack, NH</strong>
+                <p>Serving southern New Hampshire</p>
+            </div>
+            <div>
+                <h2>Local, with remote help too</h2>
+                <p>We're a local IT provider. For jobs that need us on site, we come to homes and businesses across southern New Hampshire. For many everyday problems, remote support gets you fixed faster without a visit.</p>
+                <!-- To list specific towns for local search, add a sentence here, e.g. "We regularly work in Merrimack, Nashua, ..." -->
+                <div class="btn-row">
+                    <a class="btn" href="contact.html">Get in touch</a>
+                    <a class="btn btn-ghost" href="pricing.html">See pricing</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="wrap">
+            <h2>In person or remote</h2>
+            <p class="intro">Some work needs hands on the equipment. Some doesn't.</p>
+            <div class="services">
+                <div class="service-card">
+                    <h3>In person</h3>
+                    <p>Security camera installs, Wi-Fi and home networking, device and smart home setup, and server and network deployment.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Remote</h3>
+                    <p>Help desk, Microsoft 365 management, monitoring and day-to-day support, with remote access set up on your computers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="statement">
+        <div class="wrap">
+            <p>Not sure you're in range? Send us your town and we'll let you know.</p>
+            <div class="btn-row">
+                <a class="btn" href="mailto:info@latency-lab.com?subject=Is%20my%20town%20in%20your%20service%20area%3F&amp;body=Town%3A%0D%0AWhat%20do%20you%20need%20help%20with%3F%0D%0A">Check my town</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <p>&copy; 2026 LatencyLab. All rights reserved.</p>
+        <p class="footer-links"><a href="pricing.html">Pricing</a><a href="faq.html">FAQ</a><a href="service-area.html">Service area</a></p>
+        <p><a href="mailto:info@latency-lab.com">info@latency-lab.com</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
