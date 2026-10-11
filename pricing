@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LatencyLab pricing: labor from $50 per hour at home and $100 per hour for businesses, or a $100 monthly business plan with 10% off labor and add-ons for Microsoft 365, firewall and remote access. Merrimack, NH.">
+    <title>Pricing | LatencyLab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="wrap">
+        <a class="brand" href="index.html"><span class="brand-dot"></span>LatencyLab</a>
+        <nav class="site-nav" aria-label="Main">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html" aria-current="page">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-title">
+        <div class="wrap">
+            <h1>Simple, upfront pricing</h1>
+            <p>Clear rates for IT help at home and at work. Pay by the hour, or choose a monthly plan for your business if you want ongoing support.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="wrap">
+            <h2>Our rates</h2>
+            <p class="intro">Two ways to work with us. Pick the one that fits.</p>
+            <div class="price-grid">
+                <article class="price-card">
+                    <h3>Hourly</h3>
+                    <p class="price">$50<small> per hour at home</small></p>
+                    <p>Business work is $100 per hour. Help whenever you need it, for any job.</p>
+                    <ul class="checks">
+                        <li>Troubleshooting and repairs</li>
+                        <li>Installs and setup, including security cameras</li>
+                        <li>Best for one-off jobs and occasional problems</li>
+                    </ul>
+                </article>
+                <article class="price-card featured">
+                    <h3>Monthly business plan</h3>
+                    <p class="price">$100<small> per month for businesses</small></p>
+                    <p>Ongoing support for businesses that want us on call.</p>
+                    <ul class="checks">
+                        <li>10% off all labor</li>
+                        <li>One predictable monthly fee</li>
+                        <li>Add-ons below let you build the plan around your needs</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="wrap">
+            <h2>Monthly add-ons</h2>
+            <p class="intro">Add only what you need.</p>
+            <ul class="addons">
+                <li>
+                    <div>
+                        <b>Microsoft 365 management</b>
+                        <span>We administer your Microsoft 365 environment: users and licenses, email, security settings and ongoing support.</span>
+                    </div>
+                    <div class="cost">$25 + $10/user<small>per month</small></div>
+                </li>
+                <li>
+                    <div>
+                        <b>Firewall management</b>
+                        <span>We look after your firewall so your network stays protected.</span>
+                    </div>
+                    <div class="cost">$50<small>per month</small></div>
+                </li>
+                <li>
+                    <div>
+                        <b>Remote access endpoints</b>
+                        <span>Remote access on each computer you want us to support, so we can help without a visit.</span>
+                    </div>
+                    <div class="cost">$10/endpoint<small>per month</small></div>
+                </li>
+                <li>
+                    <div>
+                        <b>EDR (endpoint detection and response)</b>
+                        <span>Security software that watches each computer for threats and helps stop them.</span>
+                    </div>
+                    <div class="cost">$8/endpoint<small>per month</small></div>
+                </li>
+            </ul>
+            <!-- If Microsoft 365 licenses are billed separately from your management fee, add a sentence here saying so. -->
+        </div>
+    </section>
+
+    <section class="section" id="calculator">
+        <div class="wrap split">
+            <div>
+                <h2>Build your price</h2>
+                <p>Choose what you need and enter how many people and computers you have. Your monthly total updates as you go.</p>
+                <p class="note">Labor is billed separately by the hour, with 10% off on the monthly business plan.</p>
+            </div>
+            <form class="calc" id="calc" onsubmit="return false">
+                <fieldset>
+                    <legend>Monthly business plan</legend>
+                    <label class="opt"><input type="checkbox" id="plan" data-price="100"><span>Monthly business plan <em>$100 &middot; 10% off labor</em></span></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Add-ons</legend>
+
+                    <div class="opt-group">
+                        <label class="opt"><input type="checkbox" id="m365"><span>Microsoft 365 management <em>$25 + $10 per user</em></span></label>
+                        <label class="qty" for="users">Users
+                            <input type="number" id="users" min="1" max="999" inputmode="numeric" placeholder="0" disabled>
+                        </label>
+                    </div>
+
+                    <div class="opt-group">
+                        <label class="opt"><input type="checkbox" id="fw"><span>Firewall management <em>$50 per firewall</em></span></label>
+                        <label class="qty" for="fws">Firewalls
+                            <input type="number" id="fws" min="1" max="99" inputmode="numeric" placeholder="0" disabled>
+                        </label>
+                    </div>
+
+                    <div class="opt-group">
+                        <label class="opt"><input type="checkbox" id="remote"><span>Remote access <em>$10 per computer</em></span></label>
+                        <label class="qty" for="remote-n">Computers
+                            <input type="number" id="remote-n" min="1" max="999" inputmode="numeric" placeholder="0" disabled>
+                        </label>
+                    </div>
+
+                    <div class="opt-group">
+                        <label class="opt"><input type="checkbox" id="edr"><span>EDR <em>$8 per computer</em></span></label>
+                        <label class="qty" for="edr-n">Computers
+                            <input type="number" id="edr-n" min="1" max="999" inputmode="numeric" placeholder="0" disabled>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="calc-result" aria-live="polite">
+                    <ul class="lines" id="calc-lines"></ul>
+                    <p class="calc-empty" id="calc-empty">Choose a service to see your price.</p>
+                    <div class="calc-total" id="calc-total" hidden>
+                        <span>Estimated total per month</span>
+                        <b id="calc-sum">$0</b>
+                    </div>
+                </div>
+
+                <noscript><p class="note">The calculator needs JavaScript. The prices for each service are listed above.</p></noscript>
+            </form>
+        </div>
+    </section>
+
+    <section class="statement">
+        <div class="wrap">
+            <p>Not sure which option fits? Tell us what you have and we'll point you to the right one.</p>
+            <div class="btn-row">
+                <a class="btn" href="contact.html">Ask for a quote</a>
+                <a class="btn btn-ghost btn-light" href="faq.html">Read the FAQ</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <p>&copy; 2026 LatencyLab. All rights reserved.</p>
+        <p class="footer-links"><a href="pricing.html">Pricing</a><a href="faq.html">FAQ</a><a href="service-area.html">Service area</a></p>
+        <p><a href="mailto:info@latency-lab.com">info@latency-lab.com</a></p>
+    </div>
+</footer>
+
+
+<script>
+(function () {
+    var fmt = function (n) { return "$" + n.toLocaleString("en-US"); };
+
+    // name, checkbox id, quantity input id (or null), base price, per-unit price, unit label
+    var items = [
+        { name: "Monthly business plan",             box: "plan",   qty: null,       base: 100, unit: 0,  label: "" },
+        { name: "Microsoft 365 management", box: "m365",   qty: "users",    base: 25,  unit: 10, label: "user" },
+        { name: "Firewall management",      box: "fw",     qty: "fws",      base: 0,   unit: 50, label: "firewall" },
+        { name: "Remote access",            box: "remote", qty: "remote-n", base: 0,   unit: 10, label: "computer" },
+        { name: "EDR",                      box: "edr",    qty: "edr-n",    base: 0,   unit: 8,  label: "computer" }
+    ];
+
+    var lines = document.getElementById("calc-lines");
+    var empty = document.getElementById("calc-empty");
+    var totalBox = document.getElementById("calc-total");
+    var sum = document.getElementById("calc-sum");
+
+    function qtyOf(el) {
+        var n = parseInt(el.value, 10);
+        if (isNaN(n) || n < 0) return 0;
+        return Math.min(n, parseInt(el.max, 10) || n);
+    }
+
+    function update() {
+        var total = 0;
+        lines.innerHTML = "";
+
+        items.forEach(function (it) {
+            var box = document.getElementById(it.box);
+            var q = it.qty ? document.getElementById(it.qty) : null;
+            if (q) {
+                q.disabled = !box.checked;
+                if (box.checked && !q.value && document.activeElement === box) q.focus();
+            }
+            if (!box.checked) return;
+
+            var n = q ? qtyOf(q) : 1;
+            if (q && n === 0) return;                 // needs a quantity before it counts
+
+            var cost = it.base + it.unit * (q ? n : 0);
+            var detail = it.name;
+            if (q) {
+                detail += " (" + (it.base ? fmt(it.base) + " + " : "") + n + " " + it.label + (n === 1 ? "" : "s") + " \u00d7 " + fmt(it.unit) + ")";
+            }
+            total += cost;
+
+            var li = document.createElement("li");
+            var a = document.createElement("span");
+            var b = document.createElement("b");
+            a.textContent = detail;
+            b.textContent = fmt(cost);
+            li.appendChild(a);
+            li.appendChild(b);
+            lines.appendChild(li);
+        });
+
+        var any = lines.children.length > 0;
+        empty.hidden = any;
+        totalBox.hidden = !any;
+        sum.textContent = fmt(total);
+    }
+
+    document.getElementById("calc").addEventListener("input", update);
+    document.getElementById("calc").addEventListener("change", update);
+    update();
+})();
+</script>
+
+</body>
+</html>
