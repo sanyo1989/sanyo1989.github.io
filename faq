@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently asked questions about LatencyLab: service area, pricing, Microsoft 365, security cameras and remote support in southern New Hampshire.">
+    <title>FAQ | LatencyLab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="wrap">
+        <a class="brand" href="index.html"><span class="brand-dot"></span>LatencyLab</a>
+        <nav class="site-nav" aria-label="Main">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="faq.html" aria-current="page">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-title">
+        <div class="wrap">
+            <h1>Frequently asked questions</h1>
+            <p>Quick answers to what people ask us most. Don't see yours? Just email us.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="wrap">
+            <div class="faq">
+                <details>
+                    <summary>Where do you work?</summary>
+                    <div class="answer">
+                        <p>We're based in Merrimack, NH and serve southern New Hampshire in person. Many problems can be fixed with remote support, so you often don't need a visit. See our <a href="service-area.html">service area</a> for details.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Do you only work with businesses?</summary>
+                    <div class="answer">
+                        <p>No. You don't need a business to get IT help. We work with businesses of all sizes and with everyday people at home, on things like security cameras, Wi-Fi, device setup and general tech support.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>How much do you charge?</summary>
+                    <div class="answer">
+                        <p>Labor is $50 per hour for work at home and $100 per hour for businesses. Businesses that want ongoing support can add a $100 monthly plan, which takes 10% off all labor. Full details are on the <a href="pricing.html">pricing page</a>.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>What does the monthly business plan include?</summary>
+                    <div class="answer">
+                        <p>The monthly business plan is $100 per month and takes 10% off all labor. You can add Microsoft 365 management, firewall management and remote access to build the plan around what you need.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>What are the add-ons, and what do they cost?</summary>
+                    <div class="answer">
+                        <p>Microsoft 365 management is $25 per month plus $10 per user. Firewall management is $50 per month. Remote access is $10 per endpoint. EDR is $8 per endpoint.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>What is EDR?</summary>
+                    <div class="answer">
+                        <p>EDR stands for endpoint detection and response. It's security software that watches each computer for threats and helps stop them. It's available as an add-on at $8 per endpoint per month.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Can you manage our Microsoft 365?</summary>
+                    <div class="answer">
+                        <p>Yes. We handle users and licenses, email, security settings and ongoing support, so your team can focus on their work.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Do you install security cameras?</summary>
+                    <div class="answer">
+                        <p>Yes. We plan, install and set up cameras around your home, and show you how to view them from your phone. Email us a short description of what you'd like covered and we'll take it from there.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Do you offer remote support?</summary>
+                    <div class="answer">
+                        <p>Yes. With remote access set up on a computer, we can often help without coming to you. Remote access is $10 per endpoint.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>How do I get started?</summary>
+                    <div class="answer">
+                        <p>Send us an email at <a href="mailto:info@latency-lab.com">info@latency-lab.com</a>, or use the buttons on the <a href="contact.html">contact page</a> to start a message. Tell us what's going on and we'll talk it through with you.</p>
+                    </div>
+                </details>
+            </div>
+
+            <div class="btn-row">
+                <a class="btn" href="mailto:info@latency-lab.com?subject=Question%20about%20LatencyLab">Ask us a question</a>
+                <a class="btn btn-ghost" href="pricing.html">See pricing</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <p>&copy; 2026 LatencyLab. All rights reserved.</p>
+        <p class="footer-links"><a href="pricing.html">Pricing</a><a href="faq.html">FAQ</a><a href="service-area.html">Service area</a></p>
+        <p><a href="mailto:info@latency-lab.com">info@latency-lab.com</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
